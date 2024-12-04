@@ -11,7 +11,7 @@ wp:
     repository: wordpress
     tag: latest
     pullPolicy: Always
-  replicas: 1
+  replicas: 2
   configmap:
     ## KEY: "value"z
     APP_ENV: "dev"
